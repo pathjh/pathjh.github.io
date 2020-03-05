@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 我的博客</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on 我的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Thu, 05 Mar 2020 20:01:41 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用Hugo快速搭建博客</title>
+      <link>http://example.org/posts/%E4%BD%BF%E7%94%A8hugo%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Thu, 05 Mar 2020 20:01:41 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E4%BD%BF%E7%94%A8hugo%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>#使用Hugo快速搭建博客 ##下载Hugo 首先，安装Hugo（需要注意的是，直接下载可能会下不动，FQ后就好多了）选择对应版本,我这里选择的是windows,64位的zip，然后解压将解压后的hugo.exe文件所在目录加入PATH环境在解压路径下打开命令行工具输入：hugo version 能查看到版本信息则代表成功##根据官方文档做搭建博客时的本地部分工作 进入Hugo官网 官网写的很详细，按照步骤操作即可需要注意的是，第二步这里hugo new site quickstart这里的quickstart 代表的是仓库名最后使用hugo server即可预览草稿
+##创建个人github仓库 新建一个github repo注意此处的仓库名必须为为 你的github用户名.github.io
+##创建本地仓库 步骤： 进入pubic  git init git add . git commit-m hello关联远程仓库：git remote add origingit@github.com:xxx/x.github.io.git(注意此处必须是git@开头)git push -u origin master打开你的用户名.github.io即可查看  </description>
+    </item>
+    
+  </channel>
+</rss>
